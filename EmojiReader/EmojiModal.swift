@@ -6,10 +6,23 @@
 //
 
 import Foundation
+import RealmSwift
 
-struct Emoji {
-    var emoji: String
-    var name: String
-    var description: String
-    var isFavourite: Bool
+
+class Emoji: Object{
+    @objc dynamic var emoji = ""
+    @objc dynamic var name: String?
+    @objc dynamic var desc: String?
+    @objc dynamic var isFavourite = false
+    
+    convenience init(emoji: String, name:String?, desc:String?, isFavourite: Bool){
+        self.init()
+        self.emoji = emoji
+        self.name = name
+        self.desc = desc
+        self.isFavourite = isFavourite
+    }
+        
 }
+
+

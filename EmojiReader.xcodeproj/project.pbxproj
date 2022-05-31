@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36386693702242279F377ED5 /* Pods_EmojiReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F77B385250AA7E275CC59 /* Pods_EmojiReaderTests.framework */; };
+		59F62BCB603D40DBFAD04823 /* Pods_EmojiReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596BEC9AD31C6657986ECD2D /* Pods_EmojiReader.framework */; };
 		85256F602842A999006E49A8 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85256F5F2842A999006E49A8 /* EmojiTableViewCell.swift */; };
 		85256F622842AB81006E49A8 /* EmojiModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85256F612842AB81006E49A8 /* EmojiModal.swift */; };
 		85702850284295E30005DA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8570284F284295E30005DA94 /* AppDelegate.swift */; };
@@ -19,6 +21,9 @@
 		85702871284295E40005DA94 /* EmojiReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85702870284295E40005DA94 /* EmojiReaderUITests.swift */; };
 		85702873284295E40005DA94 /* EmojiReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85702872284295E40005DA94 /* EmojiReaderUITestsLaunchTests.swift */; };
 		8570288028429FC70005DA94 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8570287F28429FC70005DA94 /* EmojiTableViewController.swift */; };
+		85AD1E662844C4720045F901 /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD1E652844C4720045F901 /* NewEmojiTableViewController.swift */; };
+		85B5A531284673FE0075248A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A530284673FE0075248A /* StorageManager.swift */; };
+		CF7211DA2C65BB2C01F0B026 /* Pods_EmojiReader_EmojiReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE07D076B08C9642150A23F3 /* Pods_EmojiReader_EmojiReaderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E5E2F809B6A58A140293D6 /* Pods-EmojiReader-EmojiReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiReader-EmojiReaderUITests.release.xcconfig"; path = "Target Support Files/Pods-EmojiReader-EmojiReaderUITests/Pods-EmojiReader-EmojiReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F8FEF024EF59F727F9CD18C /* Pods-EmojiReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiReader.release.xcconfig"; path = "Target Support Files/Pods-EmojiReader/Pods-EmojiReader.release.xcconfig"; sourceTree = "<group>"; };
+		596BEC9AD31C6657986ECD2D /* Pods_EmojiReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657E0EFE5136CD41E75F3732 /* Pods-EmojiReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiReaderTests/Pods-EmojiReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		785A6A32A018DCFD120198D4 /* Pods-EmojiReader-EmojiReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiReader-EmojiReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiReader-EmojiReaderUITests/Pods-EmojiReader-EmojiReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		85256F5F2842A999006E49A8 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 		85256F612842AB81006E49A8 /* EmojiModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModal.swift; sourceTree = "<group>"; };
 		8570284C284295E30005DA94 /* EmojiReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +65,12 @@
 		85702870284295E40005DA94 /* EmojiReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiReaderUITests.swift; sourceTree = "<group>"; };
 		85702872284295E40005DA94 /* EmojiReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8570287F28429FC70005DA94 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		85AB32C14F8F2FDF2E0FFE8F /* Pods-EmojiReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiReaderTests.release.xcconfig"; path = "Target Support Files/Pods-EmojiReaderTests/Pods-EmojiReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		85AD1E652844C4720045F901 /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
+		85B5A530284673FE0075248A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		C57BDDA1D580AB0AE3DD91B6 /* Pods-EmojiReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiReader.debug.xcconfig"; path = "Target Support Files/Pods-EmojiReader/Pods-EmojiReader.debug.xcconfig"; sourceTree = "<group>"; };
+		EE07D076B08C9642150A23F3 /* Pods_EmojiReader_EmojiReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiReader_EmojiReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4F77B385250AA7E275CC59 /* Pods_EmojiReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F62BCB603D40DBFAD04823 /* Pods_EmojiReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36386693702242279F377ED5 /* Pods_EmojiReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7211DA2C65BB2C01F0B026 /* Pods_EmojiReader_EmojiReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53DCD29433F222139336EFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596BEC9AD31C6657986ECD2D /* Pods_EmojiReader.framework */,
+				EE07D076B08C9642150A23F3 /* Pods_EmojiReader_EmojiReaderUITests.framework */,
+				EF4F77B385250AA7E275CC59 /* Pods_EmojiReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85702843284295E30005DA94 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +118,8 @@
 				85702865284295E40005DA94 /* EmojiReaderTests */,
 				8570286F284295E40005DA94 /* EmojiReaderUITests */,
 				8570284D284295E30005DA94 /* Products */,
+				91B42141A4658D13D6F0E6DC /* Pods */,
+				53DCD29433F222139336EFBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +136,8 @@
 		8570284E284295E30005DA94 /* EmojiReader */ = {
 			isa = PBXGroup;
 			children = (
+				85AD1E652844C4720045F901 /* NewEmojiTableViewController.swift */,
+				85B5A530284673FE0075248A /* StorageManager.swift */,
 				8570284F284295E30005DA94 /* AppDelegate.swift */,
 				85702851284295E30005DA94 /* SceneDelegate.swift */,
 				85702853284295E30005DA94 /* ViewController.swift */,
@@ -136,6 +169,19 @@
 			path = EmojiReaderUITests;
 			sourceTree = "<group>";
 		};
+		91B42141A4658D13D6F0E6DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C57BDDA1D580AB0AE3DD91B6 /* Pods-EmojiReader.debug.xcconfig */,
+				0F8FEF024EF59F727F9CD18C /* Pods-EmojiReader.release.xcconfig */,
+				785A6A32A018DCFD120198D4 /* Pods-EmojiReader-EmojiReaderUITests.debug.xcconfig */,
+				03E5E2F809B6A58A140293D6 /* Pods-EmojiReader-EmojiReaderUITests.release.xcconfig */,
+				657E0EFE5136CD41E75F3732 /* Pods-EmojiReaderTests.debug.xcconfig */,
+				85AB32C14F8F2FDF2E0FFE8F /* Pods-EmojiReaderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85702876284295E40005DA94 /* Build configuration list for PBXNativeTarget "EmojiReader" */;
 			buildPhases = (
+				9926A207F6E110C51036A734 /* [CP] Check Pods Manifest.lock */,
 				85702848284295E30005DA94 /* Sources */,
 				85702849284295E30005DA94 /* Frameworks */,
 				8570284A284295E30005DA94 /* Resources */,
+				40717F1DFC7E2FAE4A87998E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85702879284295E40005DA94 /* Build configuration list for PBXNativeTarget "EmojiReaderTests" */;
 			buildPhases = (
+				2C72864F5857B7A090C3E3B4 /* [CP] Check Pods Manifest.lock */,
 				8570285E284295E40005DA94 /* Sources */,
 				8570285F284295E40005DA94 /* Frameworks */,
 				85702860284295E40005DA94 /* Resources */,
@@ -178,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8570287C284295E40005DA94 /* Build configuration list for PBXNativeTarget "EmojiReaderUITests" */;
 			buildPhases = (
+				1B5C481469F03D8EB0CF3D7C /* [CP] Check Pods Manifest.lock */,
 				85702868284295E40005DA94 /* Sources */,
 				85702869284295E40005DA94 /* Frameworks */,
 				8570286A284295E40005DA94 /* Resources */,
+				9570044E99424D30CBD41894 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +313,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B5C481469F03D8EB0CF3D7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmojiReader-EmojiReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C72864F5857B7A090C3E3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmojiReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40717F1DFC7E2FAE4A87998E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmojiReader/Pods-EmojiReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmojiReader/Pods-EmojiReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmojiReader/Pods-EmojiReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9570044E99424D30CBD41894 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmojiReader-EmojiReaderUITests/Pods-EmojiReader-EmojiReaderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmojiReader-EmojiReaderUITests/Pods-EmojiReader-EmojiReaderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmojiReader-EmojiReaderUITests/Pods-EmojiReader-EmojiReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9926A207F6E110C51036A734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmojiReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85702848284295E30005DA94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,8 +425,10 @@
 				8570288028429FC70005DA94 /* EmojiTableViewController.swift in Sources */,
 				85702854284295E30005DA94 /* ViewController.swift in Sources */,
 				85256F602842A999006E49A8 /* EmojiTableViewCell.swift in Sources */,
+				85AD1E662844C4720045F901 /* NewEmojiTableViewController.swift in Sources */,
 				85702850284295E30005DA94 /* AppDelegate.swift in Sources */,
 				85702852284295E30005DA94 /* SceneDelegate.swift in Sources */,
+				85B5A531284673FE0075248A /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +600,7 @@
 		};
 		85702877284295E40005DA94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57BDDA1D580AB0AE3DD91B6 /* Pods-EmojiReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +629,7 @@
 		};
 		85702878284295E40005DA94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8FEF024EF59F727F9CD18C /* Pods-EmojiReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -500,6 +658,7 @@
 		};
 		8570287A284295E40005DA94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657E0EFE5136CD41E75F3732 /* Pods-EmojiReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +679,7 @@
 		};
 		8570287B284295E40005DA94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AB32C14F8F2FDF2E0FFE8F /* Pods-EmojiReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +700,7 @@
 		};
 		8570287D284295E40005DA94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785A6A32A018DCFD120198D4 /* Pods-EmojiReader-EmojiReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +719,7 @@
 		};
 		8570287E284295E40005DA94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E5E2F809B6A58A140293D6 /* Pods-EmojiReader-EmojiReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
